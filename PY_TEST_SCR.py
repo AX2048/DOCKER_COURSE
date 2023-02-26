@@ -1,11 +1,11 @@
-# PY_TEST_SCR.py
-
-import os, sys, platform
+"""PY_TEST_SCR.py"""
+import os
+import sys
+import platform
 from datetime import datetime
 from random import randint
 import socket
 #from pip import _internal
-
 
 print(f'| Current DT :: {datetime.now()} |')
 print(f'| sys.v :: {sys.version} |')

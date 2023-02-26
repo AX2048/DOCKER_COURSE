@@ -1,5 +1,8 @@
+"""docstring"""
 import calendar
-import os, sys, platform
+import os
+import sys
+import platform
 from datetime import datetime
 from random import randint
 import socket
@@ -26,5 +29,4 @@ print(f'| platform.v :: {platform.python_version()} |')
 print(f'| Executable :: {os.path.dirname(sys.executable), sys.executable} |')
 print(f'| randint :: {r} |')
 #print(f'| User @ Host :: {os.getlogin()}@{socket.gethostname()} |')
-
-#print(os.system('ip a'))
+# use docker run -e LOGNAME -it my-calendar:4.1.0 for os.getlogin()
