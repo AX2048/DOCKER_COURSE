@@ -1,5 +1,6 @@
+### Nginx on Ubuntu
 
-Run:
+Build image and run:
 ```
 docker build -t nginx-ubuntu .
 

@@ -1,6 +1,6 @@
-## Nginx on Ubuntu
+### Nginx
 
-Run nginx
+Run nginx from nginx-base:
 ```
 docker run --rm -d -v ${PWD}:/usr/share/nginx/html -p 8082:80 nginx
 ```
