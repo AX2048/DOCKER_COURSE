@@ -1,4 +1,4 @@
-### Nginx
+## Nginx
 
 Run nginx from nginx-base:
 ```
